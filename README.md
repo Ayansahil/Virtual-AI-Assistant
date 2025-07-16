@@ -1,6 +1,6 @@
 # 🤖 Criston – Your Personal Virtual AI Assistant
 
-**Cryston** is a voice-powered AI assistant inspired by JARVIS and FRIDAY from the Marvel universe. Built using **HTML**, **CSS**, and **JavaScript**, Criston can understand voice commands, speak back intelligently, and open popular platforms like YouTube, Google, Instagram, WhatsApp, and more — all from your browser!
+**Criston** is a voice-powered AI assistant inspired by JARVIS and FRIDAY from the Marvel universe. Built using **HTML**, **CSS**, and **JavaScript**, Criston can understand voice commands, speak back intelligently, and open popular platforms like YouTube, Google, Instagram, WhatsApp, and more — all from your browser!
 
 ---
 
@@ -31,12 +31,6 @@ This project simulates a futuristic voice assistant named **Criston**. It uses t
 | **JavaScript** | Logic, speech recognition, assistant behavior |
 | **Web Speech API** | Voice-to-text and text-to-voice |
 | **SVG / Images** | Icons and AI animation visuals |
-
----
-
-## 📸 Preview
-
-![Criston Preview](./AI.png)
 
 ---
 
