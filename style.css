@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.intro-heading {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Amarante", serif;
+}
+
+.name {
+    display: block;
+    font-size: 2.1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.criston {
+    background: linear-gradient(45deg, #00ffae, #21f3a8, #00d9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s ease-in-out infinite alternate;
+    font-size: 2.5rem;
+}
+
+.role {
+    display: inline;
+    font-size: 2.5rem;
+    color: #0ff;
+    background: linear-gradient(45deg, #00ffae, #21f3a8, #00d9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow2 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #0f0, 0 0 10px #0ff;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #0f0, 0 0 20px #0ff;
+    }
+}
+
+@keyframes glow2 {
+    0% {
+        text-shadow: 0 0 5px rgb(6, 217, 224), 0 0 10px rgb(22, 255, 239);
+    }
+
+    100% {
+        text-shadow: 0 0 10px rgb(14, 217, 231), 0 0 20px #0ff;
+    }
+}
+
+.voice {
+    width: 100px;
+    display: none;
+
+}
+
+.btn {
+    background: linear-gradient(135deg, #00ffc3, #04b0f3, #3ee793);
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 12px rgba(31, 255, 206, 0.423);
+    transition: all ease 0.5s;
+    box-shadow: 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.8);
+    letter-spacing: 1px;
+}
