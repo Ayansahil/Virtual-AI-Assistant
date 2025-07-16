@@ -86,19 +86,62 @@ function takeCommand(message) {
     }
 
     // ✅ Open websites
-    else if (message.includes("open youtube")) {
-        speak("Opening YouTube...");
-        window.open("https://www.youtube.com/", "_blank");
-    } else if (message.includes("open instagram")) {
-        speak("Opening Instagram...");
-        window.open("https://www.instagram.com/", "_blank");
-    } else if (message.includes("open google")) {
-        speak("Opening Google...");
-        window.open("https://www.google.com/", "_blank");
-    } else if (message.includes("open facebook")) {
-        speak("Opening Facebook...");
-        window.open("https://www.facebook.com/", "_blank");
-    }
+    else if (
+    message.includes("open youtube") ||
+    message.includes("youtube")
+) {
+    speak("Opening YouTube...");
+    window.open("https://www.youtube.com/", "_blank");
+}
+
+else if (
+    message.includes("open instagram") ||
+    message.includes("instagram")
+) {
+    speak("Opening Instagram...");
+    window.open("https://www.instagram.com/", "_blank");
+}
+
+else if (
+    message.includes("open google") ||
+    message.includes("google")
+) {
+    speak("Opening Google...");
+    window.open("https://www.google.com/", "_blank");
+}
+
+else if (
+    message.includes("open gmail") ||
+    message.includes("gmail")
+) {
+    speak("Opening Gmail...");
+    window.open("https://mail.google.com/", "_blank");
+}
+
+else if (
+    message.includes("open linkedin") ||
+    message.includes("linkedin")
+) {
+    speak("Opening LinkedIn...");
+    window.open("https://www.linkedin.com/", "_blank");
+}
+
+else if (
+    message.includes("open pinterest") ||
+    message.includes("pinterest")
+) {
+    speak("Opening Pinterest...");
+    window.open("https://www.pinterest.com/", "_blank");
+}
+
+else if (
+    message.includes("open spotify") ||
+    message.includes("spotify")
+) {
+    speak("Opening Spotify...");
+    window.open("https://open.spotify.com/", "_blank");
+}
+
 
     // ✅ Web-based utility tools
     else if (message.includes("open calculator") || message.includes("calculator")) {
