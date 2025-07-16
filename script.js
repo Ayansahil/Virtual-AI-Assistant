@@ -26,6 +26,9 @@ function wishMe() {
         speak("Good Evening Sir");
     }
 }
+window.addEventListener('load', () => {
+    wishMe();
+});
 
 // 🎙️ Setup Speech Recognition
 let speechRecognition = window.speechRecognition || window.webkitSpeechRecognition;
@@ -54,7 +57,7 @@ function takeCommand(message) {
 
     // ✅ Basic greetings
     if (message.includes("hello") || message.includes("hey") || message.includes("hi")) {
-        speak("Hello sir, what can I help you with?");
+        speak("Hello sir what can i help you with?");
     }
 
     // ✅ Identity-related questions
